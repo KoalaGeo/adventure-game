@@ -74,7 +74,7 @@ def hitshark():
         print(
             "the shark let you go however your fatigue has gone up you need to find something to eat"
         )
-        print("Fatigue =" fatigue)
+        print("Fatigue =", fatigue)
         choice = input(
             "do you want to go into the forest (1) or go to the beach huts (2)?")
     if choice.upper() == '2':
@@ -139,12 +139,12 @@ def eatapple():
     randomnumber = random.randint(1, 100)
     if randomnumber >= 99:
         print(
-            'this apple was has made you ill. a poisenous bug was inside and you ate it. better luck next time'
+            'this apple was has made you ill. a poisonous bug was inside and you ate it. better luck next time'
         )
         Start()
     else:
         print(
-            'that apple has given you lots more energy fom that fight with the shark'
+            'that apple has given you lots more energy recovering you from the fight with the shark'
         )
         print(
             'do you want to go back to the beach or continue going through the forest'
